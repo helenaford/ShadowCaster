@@ -33,7 +33,7 @@ Backend
 
 
 Shadow Caster follows a three stage hierarchy, a Global Master, Sub Master, and Worker nodes. 
-This structure ensures each animation is handled independently and that each user is able to gain full usage, does not need to waitfor other users and is ever slowed down by heavy workload on the server end.
+This structure ensures each animation is handled independently and that each user is able to gain full usage, does not need to waitfor other users and is never slowed down by heavy workload on the server end.
 It means that each user can treat the system as their own, with their own dedicated Sub Master and renderers.
 
 Backend Process Flow Diagram
